@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Code2, ExternalLink, Github, Linkedin, Mail, Phone, Download, Menu, X, ChevronRight, Briefcase, Award, GraduationCap } from 'lucide-react';
+import { Code2, Github, Linkedin, Mail, Phone, Download, Menu, X, ChevronRight, Briefcase, Award, GraduationCap } from 'lucide-react';
 import { personalInfo, aboutMe, skills, projects, experience, certifications, education } from '../mock';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
@@ -60,7 +60,7 @@ const Home = () => {
               className="flex items-center gap-2 text-[#d9fb06] hover:opacity-80 transition-opacity"
             >
               <Code2 size={28} />
-              <span className="font-bold text-lg">GDY</span>
+              <span className="font-bold text-lg">Gagan Deep Yadav</span>
             </button>
 
             {/* Desktop Navigation */}
@@ -295,13 +295,6 @@ const Home = () => {
                       >
                         <Github className="mr-2" size={18} />
                         Code
-                      </Button>
-                      <Button 
-                        className="bg-[#d9fb06] text-[#1a1c1b] hover:opacity-90 rounded-full font-semibold uppercase"
-                        onClick={() => window.open(project.demo, '_blank')}
-                      >
-                        <ExternalLink className="mr-2" size={18} />
-                        Live Demo
                       </Button>
                     </div>
                   </div>
