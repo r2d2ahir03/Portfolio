@@ -1,0 +1,15 @@
+{
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/build",
+  "nodeVersion": "20.x",
+  "env": {
+    "SKIP_PREFLIGHT_CHECK": "true",
+    "GENERATE_SOURCEMAP": "false"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
