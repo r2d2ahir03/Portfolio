@@ -1,12 +1,12 @@
 [build]
   # Build command
-  command = "npm run build"
+  command = "npm run build --legacy-peer-deps"
   
   # Directory that will be deployed to Netlify
   publish = "build"
   
   # Base directory - where netlify should run commands from
-  base = "."
+  base = "frontend"
 
 [build.environment]
   # Node version
