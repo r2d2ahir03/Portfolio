@@ -10,7 +10,7 @@
 
 [build.environment]
   # Node version
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
   
   # Skip preflight check for Create React App
   SKIP_PREFLIGHT_CHECK = "true"
